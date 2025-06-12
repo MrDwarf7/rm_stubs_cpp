@@ -37,7 +37,6 @@ int main(const int argc, char **argv) {
                 }
             }
         }
-
     } catch (const fs::filesystem_error &e) {
         std::cerr << "Filesystem error: " << e.what() << "\n";
         return 1;
